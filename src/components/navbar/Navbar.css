@@ -1,0 +1,86 @@
+.navbar-wrapper {
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+  padding: 2rem 3rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo h2 {
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: bold;
+  color: #0096C7;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.navbar-menu-sign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-menu-sign p {
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.navbar-menu-sign button {
+  padding: 0.5rem 1rem;
+  background-color: #0096C7;
+  border-radius: 0.5rem;
+  font-size: 18px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  line-height: 25px;
+  color: #fff;
+  border: 0;
+  outline: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-menu-sign {
+    margin-top: 1rem; /* Add margin-top to create space */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-logo h2 {
+    font-size: 18px;
+  }
+
+  .menu a {
+    margin: 0.5rem 0; /* Change the margin to create space */
+  }
+}

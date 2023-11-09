@@ -1,0 +1,65 @@
+.cs__features {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.cs__features-heading {
+  font-family: var(--font-family);
+  flex: 1;
+  margin: 2.5rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.cs__features-heading h1 {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.cs__features-heading p.access-link {
+  color: #71e5ff;
+  cursor: pointer;
+  margin: 2rem 0;
+}
+
+.cs__features-container {
+  flex: 1.5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 800px) {
+  .cs__features {
+    flex-direction: column;
+  }
+
+  .cs__features-heading h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 595px) {
+  .cs__features-heading h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .cs__features-heading h1 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
