@@ -11,7 +11,7 @@
 }
 
 .footer-button {
-  background-color: #3c8097;
+  background-color: #c04c4c;
   border: 1px solid 157291;
   padding: 10px 20px;
   transition: background-color 0.3s, color 0.3s;
@@ -21,40 +21,38 @@
 }
 
 .footer-button:hover {
-  background-color: #c44d4d;
+  background-color: #e24747;
 }
 
 .footer-links {
+  color: #ffffff;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 30px;
+  margin: 50px 50px;
 }
 
 .footer-links-logo {
   text-align: center;
 }
 
-.footer-links-logo h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.footer-links-logo p {
-  font-size: 14px;
-  margin: 5px 0;
-}
-
 .footer-links-div {
+  color: #ffffff;
   flex: 1;
   max-width: 200px;
 }
 
 .footer-links-div p {
-  font-size: 14px;
-  margin: 5px 0;
   color: #a19f9f;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 5px 0;
+  margin-top: 20px;
 }
-.contact-info {
-  color: #007ea7;
+
+.footer-links-div h4 {
+  margin-top: 20px;
+}
+.footer-links-div h2 {
+  margin-top: 20px;
 }

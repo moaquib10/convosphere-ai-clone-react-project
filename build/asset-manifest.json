@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/weather-wonders-project-react/static/css/main.60f4cbed.css",
+    "main.js": "/weather-wonders-project-react/static/js/main.5f789490.js",
+    "static/media/possibility.png": "/weather-wonders-project-react/static/media/possibility.525f13b61a2157d44de0.png",
+    "index.html": "/weather-wonders-project-react/index.html",
+    "main.60f4cbed.css.map": "/weather-wonders-project-react/static/css/main.60f4cbed.css.map",
+    "main.5f789490.js.map": "/weather-wonders-project-react/static/js/main.5f789490.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60f4cbed.css",
+    "static/js/main.5f789490.js"
+  ]
+}
