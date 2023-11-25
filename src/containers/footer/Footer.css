@@ -37,22 +37,24 @@
 }
 
 .footer-links-div {
-  color: #ffffff;
+  color: #dddddd;
   flex: 1;
   max-width: 200px;
 }
 
 .footer-links-div p {
   color: #a19f9f;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 600;
   margin: 5px 0;
   margin-top: 20px;
 }
 
 .footer-links-div h4 {
+  font-size: 14px;
   margin-top: 20px;
 }
 .footer-links-div h2 {
+  font-size: 15px;
   margin-top: 20px;
 }

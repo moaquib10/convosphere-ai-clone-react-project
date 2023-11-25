@@ -1,10 +1,10 @@
 {
-  "homepage": "https://moaquib10.github.io/weather-wonders-project-react",
+  "homepage": "https://moaquib10.github.io/convosphere-ai-clone-react-project/",
   "name": "convosphere.ai",
   "author": "Mohammed Aquib",
   "repository": {
     "type": "git",
-    "url": "https://moaquib10.github.io/convosphere-ai-clone-react/"
+    "url": "https://moaquib10.github.io/convosphere-ai-clone-react-project/"
   },
   "description": "Clone of Convosphere.ai Website using Reactjs",
   "version": "0.1.0",
