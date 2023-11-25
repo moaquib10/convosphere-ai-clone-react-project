@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/weather-wonders-project-react/static/css/main.60f4cbed.css",
-    "main.js": "/weather-wonders-project-react/static/js/main.5f789490.js",
-    "static/media/possibility.png": "/weather-wonders-project-react/static/media/possibility.525f13b61a2157d44de0.png",
-    "index.html": "/weather-wonders-project-react/index.html",
-    "main.60f4cbed.css.map": "/weather-wonders-project-react/static/css/main.60f4cbed.css.map",
-    "main.5f789490.js.map": "/weather-wonders-project-react/static/js/main.5f789490.js.map"
+    "main.css": "/convosphere-ai-clone-react/static/css/main.2b53821e.css",
+    "main.js": "/convosphere-ai-clone-react/static/js/main.c9a7f5bc.js",
+    "static/media/possibility.png": "/convosphere-ai-clone-react/static/media/possibility.525f13b61a2157d44de0.png",
+    "index.html": "/convosphere-ai-clone-react/index.html",
+    "main.2b53821e.css.map": "/convosphere-ai-clone-react/static/css/main.2b53821e.css.map",
+    "main.c9a7f5bc.js.map": "/convosphere-ai-clone-react/static/js/main.c9a7f5bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.60f4cbed.css",
-    "static/js/main.5f789490.js"
+    "static/css/main.2b53821e.css",
+    "static/js/main.c9a7f5bc.js"
   ]
 }
