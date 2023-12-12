@@ -1,13 +1,35 @@
 import React from 'react';
+import { useSpring, animated } from 'react-spring';
 import './Header.css';
 
 const Header = () => {
+  const titleAnimation = useSpring({
+    opacity: 1,
+    from: { opacity: 0 },
+    delay: 500, // Adjust the delay as needed
+  });
+
+  const textAnimation = useSpring({
+    opacity: 1,
+    from: { opacity: 0 },
+    delay: 1000, // Adjust the delay as needed
+  });
+
+  const buttonAnimation = useSpring({
+    from: { backgroundColor: '#a8a6a6', transform: 'scale(1)' },
+    to: async (next, cancel) => {
+      await next({ backgroundColor: '#a8a6a6', transform: 'scale(1.1)' });
+      await next({ backgroundColor: '#a8a6a6', transform: 'scale(1)' });
+    },
+  });
+
   return (
     <div id="home" className="header-wrapper">
       <div className="header-content">
-        <h1 className="header-title">
-          Let&apos;s Pioneer the Future of Creativity with Convosphere.ai
-        </h1>
+        <animated.h1 className="header-title" style={titleAnimation}>
+          Let's Pioneer the Future of Creativity with Convosphere.ai
+        </animated.h1>
+        <animated.p className="header-text" style={textAnimation}>
         <p className="header-text">
           Convosphere.ai is a revolutionary leap into the future of AI and
           creative interaction. This project has been an exhilarating journey,
@@ -31,9 +53,16 @@ const Header = () => {
           AI-driven human-computer interaction, redefining the way we explore
           and harness the potential of artificial intelligence.
         </p>
+        </animated.p>
         <div className="header-content-input">
           <input type="email" placeholder="Your Email Address" />
-          <button className="header-button" type="button">Get Started</button>
+          <animated.button
+            className="header-button"
+            type="button"
+            style={buttonAnimation}
+          >
+            Get Started
+          </animated.button>
         </div>
       </div>
     </div>

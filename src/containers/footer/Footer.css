@@ -1,18 +1,25 @@
 .footer-wrapper {
-  background-color: #1a1a1a;
-  color: #a19f9f;
+  background: radial-gradient(
+    circle at 30% -100%,
+    #007EA7 25%,
+    rgba(4, 44, 84, 1) 85%,
+    #007EA7 100%
+  );
+  color: #ecf0f1;
   text-align: center;
   padding: 45px;
 }
 
 .footer-heading {
-  font-size: 36px;
+  font-size: 30px;
   margin-bottom: 20px;
+  color: #ecf0f1;
+  animation: fadeInUp 0.5s ease;
 }
 
 .footer-button {
-  background-color: #c04c4c;
-  border: 1px solid 157291;
+  background-color: #d3823a; /* Orange */
+  border: 1px solid #df7a21; /* Darker shade of purple */
   padding: 10px 20px;
   transition: background-color 0.3s, color 0.3s;
   cursor: pointer;
@@ -21,40 +28,103 @@
 }
 
 .footer-button:hover {
-  background-color: #e24747;
+  background-color: #e67a1c;
 }
 
 .footer-links {
   color: #ffffff;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  gap: 30px;
+  justify-content: center;
   margin-top: 40px;
 }
 
-.footer-links-logo {
-  text-align: center;
-}
 
 .footer-links-div {
   color: #dddddd;
-  flex: 1;
-  max-width: 200px;
 }
 
-.footer-links-div p {
-  color: #a19f9f;
+.footer-links-div1 {
+  color: #dddddd;
+  display: flex;
+  gap: 30px;
+}
+
+.footer-text {
   font-size: 12px;
   font-weight: 600;
   margin: 5px 0;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
-.footer-links-div h4 {
-  font-size: 14px;
-  margin-top: 20px;
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
-.footer-links-div h2 {
-  font-size: 15px;
-  margin-top: 20px;
+
+/* Add these styles for tablet screens */
+@media only screen and (max-width: 1024px) {
+  .footer-wrapper {
+    padding: 20px; /* Add padding for better spacing */
+  }
+
+  .footer-heading {
+    text-align: center; /* Center the heading on tablet screens */
+  }
+
+  .footer-button {
+    text-align: center; /* Center the button on tablet screens */
+  }
+
+  .footer-links {
+    flex-direction: column; /* Change to column layout for links on tablet screens */
+    align-items: center; /* Center align the links on tablet screens */
+  }
+
+  .footer-links-div {
+    margin-bottom: 20px; /* Add margin between the logo and the text on tablet screens */
+  }
+}
+
+/* Add these styles for mobile screens */
+@media only screen and (max-width: 768px) {
+  .footer-wrapper {
+    padding: 15px; /* Adjust padding for mobile screens */
+  }
+
+  .footer-heading {
+    font-size: 24px; /* Adjust font size for the heading on mobile screens */
+  }
+
+  .footer-button {
+    margin-top: 15px; /* Adjust margin for better spacing on mobile screens */
+  }
+
+  .button-text {
+    font-size: 14px; /* Adjust font size for the button text on mobile screens */
+  }
+
+  .footer-links {
+    flex-direction: column; /* Change to column layout for links on mobile screens */
+    align-items: center; /* Center align the links on mobile screens */
+  }
+
+  .footer-links-div {
+    margin-bottom: 15px; /* Add margin between the logo and the text on mobile screens */
+  }
+
+  .logo-text {
+    font-size: 14px; /* Adjust font size for the logo text on mobile screens */
+  }
+
+  .footer-text {
+    font-size: 12px; /* Adjust font size for the footer text on mobile screens */
+  }
 }

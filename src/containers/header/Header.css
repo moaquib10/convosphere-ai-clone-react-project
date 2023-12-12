@@ -1,5 +1,10 @@
 .header-wrapper {
-  background-color: #007EA7;
+  background: radial-gradient(
+    circle at 30% -100%,
+    #007EA7 25%,
+    rgba(4, 44, 84, 1) 85%,
+    #007EA7 100%
+  );
   color: #fff;
   text-align: center;
   padding: 45px;
@@ -64,5 +69,5 @@
 }
 
 .header-button:hover {
-  background-color: #e24747;
+  background-color: rgb(196, 44, 44);
 }
