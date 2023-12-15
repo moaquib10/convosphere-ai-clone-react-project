@@ -1,9 +1,15 @@
+:root {
+  --primary-color: #007ea7;
+  --button-bg: #d3823a;
+  --button-hover-bg: #e67a1c;
+}
+
 .footer-wrapper {
   background: radial-gradient(
     circle at 30% -100%,
-    #007EA7 25%,
+    var(--primary-color) 25%,
     rgba(4, 44, 84, 1) 85%,
-    #007EA7 100%
+    var(--primary-color) 100%
   );
   color: #ecf0f1;
   text-align: center;
@@ -11,15 +17,15 @@
 }
 
 .footer-heading {
-  font-size: 30px;
+  font-size: 22px;
   margin-bottom: 20px;
   color: #ecf0f1;
   animation: fadeInUp 0.5s ease;
 }
 
 .footer-button {
-  background-color: #d3823a; /* Orange */
-  border: 1px solid #df7a21; /* Darker shade of purple */
+  background-color: var(--button-bg);
+  border: 1px solid darken(var(--button-bg), 10%);
   padding: 10px 20px;
   transition: background-color 0.3s, color 0.3s;
   cursor: pointer;
@@ -28,103 +34,87 @@
 }
 
 .footer-button:hover {
-  background-color: #e67a1c;
+  background-color: var(--button-hover-bg);
 }
 
 .footer-links {
   color: #ffffff;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 40px;
+  margin-bottom: 60px;
 }
 
-
 .footer-links-div {
-  color: #dddddd;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .footer-links-div1 {
-  color: #dddddd;
   display: flex;
+  flex-direction: row;
   gap: 30px;
 }
 
+.logo-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .footer-text {
-  font-size: 12px;
-  font-weight: 600;
-  margin: 5px 0;
-  margin-top: 10px;
+  font-size: 14px;
 }
 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Add these styles for tablet screens */
 @media only screen and (max-width: 1024px) {
   .footer-wrapper {
-    padding: 20px; /* Add padding for better spacing */
+    padding: 20px;
   }
 
-  .footer-heading {
-    text-align: center; /* Center the heading on tablet screens */
-  }
-
+  .footer-heading,
   .footer-button {
-    text-align: center; /* Center the button on tablet screens */
+    text-align: center;
   }
 
   .footer-links {
-    flex-direction: column; /* Change to column layout for links on tablet screens */
-    align-items: center; /* Center align the links on tablet screens */
+    flex-direction: column;
+    align-items: center;
   }
 
   .footer-links-div {
-    margin-bottom: 20px; /* Add margin between the logo and the text on tablet screens */
+    margin-bottom: 20px;
   }
 }
 
-/* Add these styles for mobile screens */
 @media only screen and (max-width: 768px) {
   .footer-wrapper {
-    padding: 15px; /* Adjust padding for mobile screens */
+    padding: 15px;
   }
 
   .footer-heading {
-    font-size: 24px; /* Adjust font size for the heading on mobile screens */
+    font-size: 14px;
   }
 
   .footer-button {
-    margin-top: 15px; /* Adjust margin for better spacing on mobile screens */
+    margin-top: 15px;
   }
 
   .button-text {
-    font-size: 14px; /* Adjust font size for the button text on mobile screens */
+    font-size: 14px;
   }
 
   .footer-links {
-    flex-direction: column; /* Change to column layout for links on mobile screens */
-    align-items: center; /* Center align the links on mobile screens */
+    flex-direction: column;
+    align-items: center;
   }
 
   .footer-links-div {
-    margin-bottom: 15px; /* Add margin between the logo and the text on mobile screens */
+    margin-bottom: 15px;
   }
 
-  .logo-text {
-    font-size: 14px; /* Adjust font size for the logo text on mobile screens */
-  }
-
+  .logo-text,
   .footer-text {
-    font-size: 12px; /* Adjust font size for the footer text on mobile screens */
+    font-size: 14px;
   }
 }

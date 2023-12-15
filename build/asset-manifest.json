@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/convosphere-ai-clone-react-project/static/css/main.1c7cee00.css",
-    "main.js": "/convosphere-ai-clone-react-project/static/js/main.bac124d3.js",
-    "static/media/possibility.png": "/convosphere-ai-clone-react-project/static/media/possibility.525f13b61a2157d44de0.png",
+    "main.css": "/convosphere-ai-clone-react-project/static/css/main.3a10fdaf.css",
+    "main.js": "/convosphere-ai-clone-react-project/static/js/main.e077a77c.js",
+    "static/media/possibility.jpeg": "/convosphere-ai-clone-react-project/static/media/possibility.748ad476729b9de56882.jpeg",
     "index.html": "/convosphere-ai-clone-react-project/index.html",
-    "main.1c7cee00.css.map": "/convosphere-ai-clone-react-project/static/css/main.1c7cee00.css.map",
-    "main.bac124d3.js.map": "/convosphere-ai-clone-react-project/static/js/main.bac124d3.js.map"
+    "main.3a10fdaf.css.map": "/convosphere-ai-clone-react-project/static/css/main.3a10fdaf.css.map",
+    "main.e077a77c.js.map": "/convosphere-ai-clone-react-project/static/js/main.e077a77c.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c7cee00.css",
-    "static/js/main.bac124d3.js"
+    "static/css/main.3a10fdaf.css",
+    "static/js/main.e077a77c.js"
   ]
 }

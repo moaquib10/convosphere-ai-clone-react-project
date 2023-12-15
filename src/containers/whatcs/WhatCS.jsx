@@ -7,7 +7,7 @@ const AnimatedHeading = () => {
   const headingAnimation = useSpring({
     opacity: 1,
     from: { opacity: 0 },
-    delay: 500, // Adjust the delay as needed
+    delay: 500,
   });
 
   return (
@@ -24,7 +24,7 @@ const AnimatedFeature = () => {
   const featureAnimation = useSpring({
     opacity: 1,
     from: { opacity: 0 },
-    delay: 1000, // Adjust the delay as needed
+    delay: 1000,
   });
 
   return (

@@ -29,7 +29,7 @@
   text-align: center;
 }
 
-.whatcs-heading p.explore-button {
+.whatcs-heading .explore-button {
   padding: 10px 20px;
   background-color: #d3823a;
   border-radius: 5px;
@@ -49,7 +49,7 @@
   margin-top: 2rem;
 }
 
-.whatcs-container .cs__features-container__feature {
+.whatcs-container .cs-feature {
   flex: 1;
   margin: 1rem;
   min-width: 210px;
@@ -58,7 +58,7 @@
   text-align: center;
 }
 
-.whatcs-container .cs__features-container_feature-text {
+.whatcs-container .cs-feature-text {
   margin-top: 0.5rem;
 }
 

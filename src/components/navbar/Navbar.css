@@ -101,18 +101,48 @@
   }
 }
 
-@media screen and (min-width: 1051px) {
+@media screen and (max-width: 250px) {
+  .navbar-logo h2 {
+    font-size: 12px;
+  }
+
+  .menu a {
+    margin: 0.2rem 0;
+  }
+
   .navbar-menu {
-    display: flex;
-    align-items: center;
+    top: 40px;
   }
 
-  .menu {
-    display: flex;
+  .navbar-menu-sign p {
+    font-size: 12px;
   }
 
-  .navbar-menu-sign {
-    flex-direction: row;
-    gap: 20px;
+  .navbar-menu-sign button {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar-logo h2 {
+    font-size: 12px;
+  }
+
+  .menu a {
+    margin: 0.3rem 0;
+  }
+
+  .navbar-menu {
+    top: 50px;
+  }
+
+  .navbar-menu-sign p {
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .navbar-menu-sign button {
+    font-size: 8px;
+    font-weight: 500;
   }
 }

@@ -6,7 +6,7 @@ const AnimatedMenu = () => {
   const menuAnimation = useSpring({
     opacity: 1,
     from: { opacity: 0 },
-    delay: 500, // Adjust the delay as needed
+    delay: 500,
   });
 
   return (
@@ -23,13 +23,13 @@ const AnimatedNavbar = () => {
   const logoAnimation = useSpring({
     opacity: 1,
     from: { opacity: 0 },
-    delay: 500, // Adjust the delay as needed
+    delay: 500,
   });
 
   const menuSignAnimation = useSpring({
     opacity: 1,
     from: { opacity: 0 },
-    delay: 1000, // Adjust the delay as needed
+    delay: 1000,
   });
 
   const buttonAnimation = useSpring({
@@ -51,10 +51,7 @@ const AnimatedNavbar = () => {
         </animated.div>
         <animated.div style={menuSignAnimation} className="navbar-menu-sign">
           <p>Sign in</p>
-          <animated.button
-            style={buttonAnimation}
-            type="button"
-          >
+          <animated.button style={buttonAnimation} type="button">
             Sign up
           </animated.button>
         </animated.div>

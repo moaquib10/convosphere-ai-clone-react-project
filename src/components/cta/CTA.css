@@ -1,78 +1,81 @@
 .cs__cta {
-    display: flex;
-    justify-content: space-between;
-    font-family: var(--font-family);
-    background: radial-gradient(
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-family);
+  background: radial-gradient(
     circle at 30% -100%,
     #007EA7 25%,
-    
     #007EA7 100%
   );
-    border: none;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    padding: 2rem;
-    margin: 45px;
-    align-items: center;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 2rem;
+  margin: 45px;
+  align-items: center;
+}
+
+.cs__cta-content {
+  flex: 2.5;
+  margin: auto 0;
+}
+
+.cs__cta h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.cs__cta p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  cursor: pointer;
+  color: #0E0E0E;
+  margin-bottom: 1rem;
+}
+
+.cs__cta button {
+  flex: 0.5;
+  font-family: var(--font-family);
+  color: #fff;
+  background-color: #000;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  margin: 1rem 0 0 0;
+  transition: background-color 0.3s;
+}
+
+.cs__cta button:hover {
+  background-color: #333;
+}
+
+@media screen and (max-width: 545px) {
+  .cs__cta {
+    flex-direction: column;
+    padding: 1.5rem;
   }
-  
-  .cs__cta-content {
-    flex: 2.5;
-    margin: auto 0;
-  }
-  
+
   .cs__cta h1 {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 30px;
-    color: #fff;
-  }
-  
-  .cs__cta p {
-    font-weight: 500;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 25px;
-    cursor: pointer;
-    color: #0E0E0E;
-    margin-bottom: 1rem;
   }
-  
+
+  .cs__cta p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
   .cs__cta button {
-    flex: 0.5;
-    font-family: var(--font-family);
-    color: #fff;
-    background-color: #000;
-    border: none;
-    outline: none;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
-    border-radius: 20px;
-    cursor: pointer;
-    padding: 0.5rem 2rem;
-    margin: 1rem 0 0 0;
-    transition: background-color 0.3s;
+    font-size: 12px;
+    padding: 0.5rem 1.5rem;
+    width: 60%;
   }
-  
-  .cs__cta button:hover {
-    background-color: #333;
-  }
-  
-  @media screen and (max-width: 545px) {
-    .cs__cta {
-      flex-direction: column;
-      padding: 1.5rem;
-    }
-  
-    .cs__cta h1 {
-      font-size: 16px;
-      line-height: 25px;
-    }
-  
-    .cs__cta button {
-      font-size: 12px;
-      padding: 0.5rem 1.5rem;
-      width: 60%;
-    }
-  }
-  
+}

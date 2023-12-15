@@ -1,5 +1,5 @@
 import React from "react";
-import { useSpring, animated } from 'react-spring';
+import { useSpring, animated } from "react-spring";
 import "./Footer.css";
 
 const Footer = () => {
@@ -10,8 +10,8 @@ const Footer = () => {
   });
 
   const buttonAnimation = useSpring({
-    from: { opacity: 0, transform: 'translateY(20px)' },
-    to: { opacity: 1, transform: 'translateY(0)' },
+    from: { opacity: 0, transform: "translateY(20px)" },
+    to: { opacity: 1, transform: "translateY(0)" },
     delay: 1000,
   });
 

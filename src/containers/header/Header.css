@@ -13,7 +13,7 @@
 .header-title {
   font-family: var(--font-family);
   font-weight: 800;
-  font-size: 35px;
+  font-size: 30px;
   line-height: 50px;
   letter-spacing: -0.04em;
   color: #fff;
@@ -69,5 +69,5 @@
 }
 
 .header-button:hover {
-  background-color: rgb(196, 44, 44);
+  background-color: #c42c2c;
 }

@@ -1,7 +1,6 @@
-import React from 'react'
-import "./Article.css"
+import React from 'react';
+import './Article.css';
 
-// Parameter Destructuring
 const Article = ({ imgUrl, date, title }) => {
   return (
     <div className="cs__blog-container_article">
@@ -14,7 +13,7 @@ const Article = ({ imgUrl, date, title }) => {
         <p>Read Full Article</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Article;
