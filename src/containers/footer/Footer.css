@@ -55,7 +55,7 @@
 .footer-links-div1 {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 20px;
 }
 
 .logo-text {
@@ -115,6 +115,6 @@
 
   .logo-text,
   .footer-text {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
